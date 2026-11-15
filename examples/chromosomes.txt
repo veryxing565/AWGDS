@@ -1,0 +1,5 @@
+species	seqid	chromosome
+Taxon_A.softmasked.fna	CM012345.1	chr1
+Taxon_A.softmasked.fna	CM012346.1	chr2
+Taxon_B	chr01	chr01
+Taxon_B	chr02	chr02

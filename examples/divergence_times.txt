@@ -1,0 +1,4 @@
+species_a	species_b	age_mya	min_mya	max_mya	source
+Taxon_A	Taxon_H		170	260	Illustrative root bounds
+Taxon_A	Taxon_D	100			Illustrative point estimate
+Taxon_E	Taxon_H		70	140	Illustrative internal bounds

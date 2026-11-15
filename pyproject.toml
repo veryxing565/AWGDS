@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "awgds"
+version = "0.3.0"
+description = "Ancient Whole-Genome Duplication Search: rank internal branches and test their chromosome evidence."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["biopython>=1.81", "numpy>=1.24", "threadpoolctl>=3.1"]
+
+[project.scripts]
+awgds = "awgds.cli:main"
+
+[tool.setuptools]
+packages = ["awgds"]
+
